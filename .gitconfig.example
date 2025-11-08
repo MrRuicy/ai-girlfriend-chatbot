@@ -1,0 +1,14 @@
+# Git配置示例
+# 将以下内容添加到你的 ~/.gitconfig 文件（Linux/Mac）或全局配置
+
+[user]
+    name = Your Name
+    email = your.email@example.com
+
+[core]
+    autocrlf = true
+    editor = code --wait
+
+[init]
+    defaultBranch = main
+
